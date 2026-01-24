@@ -1,0 +1,24 @@
+[package]
+name = "rust-terminal-rendering"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28"
+ratatui = "0.29"
+
+[[example]]
+name = "basic_colors"
+path = "examples/basic_colors.rs"
+
+[[example]]
+name = "interactive_menu"
+path = "examples/interactive_menu.rs"
+
+[[example]]
+name = "progress_bar"
+path = "examples/progress_bar.rs"
+
+[[example]]
+name = "tui_dashboard"
+path = "examples/tui_dashboard.rs"
